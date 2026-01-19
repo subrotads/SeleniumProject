@@ -2,7 +2,6 @@ package Project;
 
 import org.testng.annotations.Test;
 
-//hello check
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
