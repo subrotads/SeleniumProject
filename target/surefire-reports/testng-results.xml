@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-16T10:17:01 UTC" name="Suite" finished-at="2026-01-16T10:17:05 UTC" duration-ms="4128">
+    <groups>
+    </groups>
+    <test started-at="2026-01-16T10:17:01 UTC" name="Test" finished-at="2026-01-16T10:17:05 UTC" duration-ms="4128">
+      <class name="Project.Datap">
+        <test-method signature="smaple(java.lang.String,java.lang.String)[pri:0, instance:Project.Datap@20d525]" started-at="2026-01-16T10:17:01 UTC" name="smaple" finished-at="2026-01-16T10:17:01 UTC" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public static void Project.Datap.smaple(java.lang.String,java.lang.String) throws java.lang.Exception requires a @DataProvider named : browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public static void Project.Datap.smaple(java.lang.String,java.lang.String) throws java.lang.Exception requires a @DataProvider named : browser
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smaple -->
+      </class> <!-- Project.Datap -->
+      <class name="Project.Testen">
+        <test-method signature="first()[pri:0, instance:Project.Testen@38afe297]" started-at="2026-01-16T10:17:01 UTC" name="first" finished-at="2026-01-16T10:17:05 UTC" duration-ms="4020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- Project.Testen -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
