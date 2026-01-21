@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Project.Datap">
+      <class name="Project.Testacc$RediffCreateAccountTest">
         <methods>
-          <include name="smaple" invocation-numbers="0 1"/>
+          <include name="fillCreateAccountForm"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Project.Datap -->
+      </class> <!-- Project.Testacc$RediffCreateAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
